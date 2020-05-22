@@ -2,9 +2,20 @@ import { Movie } from './Movie';
 import { Professional } from './Professional';
 
 let M1 : Movie = new Movie("The life of PI",2015,"Indian","Aventure");
-let P1 : Professional = new Professional("Cameron",33,"F",60,170,"Red","Brown","White",false,"Italian",1,"Actress");
-let P2 : Professional = new Professional("James",43,"M",78,180,"Black","Blue","Black",true,"American",0,"Musician");
-let P3 : Professional = new Professional("Harry",27,"M",75,177,"Blond","Green","White",false,"Spanish",0,"Designer");
-M1.actors = [P1,P2,P3]
-
+let P1 : Professional = new Professional("Cameron Diaz",33,"F",60,170,"Red","Brown","White",false,"Italian",1,"Actress");
+let P2 : Professional = new Professional("James Franco",43,"M",78,180,"Black","Blue","Black",true,"American",0,"Musician");
+let P3 : Professional = new Professional("Harry Lozano",67,"M",75,177,"Blond","Green","White",false,"Spanish",0,"Director");
+let P4 : Professional = new Professional("Marco",75,"M",85,179,"Black","Green","Black",false,"Ireland",1,"Actor");
+let P5 : Professional = new Professional("Miguelo",54,"M",79,187,"Brown","Black","White",false,"Mexican",0,"Writer");
+let P6 : Professional = new Professional("Natalie",29,"F",52,165,"Red","Brown","White",false,"English",0,"Actress");
+let P7 : Professional = new Professional("Monica",40,"F",55,173,"Blond","Green","White",false,"Portuguese",0,"Actress");
+M1.actors = [P1,P2];
+M1.director = P3;
+M1.writer = P5;
+M1.language = "English";
+M1.plataform = "Netflix";
+M1.isMCU = false;
+M1.mainCharacterName = P1.name;
+M1.producer = "Columbian";
+M1.distributor = "Netflix";
 console.log(M1.printMovies());

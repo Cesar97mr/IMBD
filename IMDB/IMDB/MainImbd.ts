@@ -6,4 +6,5 @@ let arrayMovies : Movie[] = [M1,M2];
 
 let imbd : IMBD = new IMBD(arrayMovies);
 
-console.log(imbd.converterToJSON("imdbBBDD.json"));
+console.log(imbd.escribirEnFicheroJSON("imdbBBDD.json"));
+console.log(imbd.obtenerInstanciaIMDB("imdbBBDD.json"));

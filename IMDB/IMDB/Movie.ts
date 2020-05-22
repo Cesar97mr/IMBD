@@ -25,6 +25,17 @@ export class Movie{
         return "Tittle : " + this.title + "\n"+
                 "Release Year : " + this.releaseYear + "\n"+
                 "Nacionality : " + this.nacionality + "\n"+
+                "Genero : " + this.gener + "\n" +
+                "Actors : " + this.actors + "\n"+
+                "Director : " + this.director + "\n"+
+                "Writer : " + this.writer + "\n"+
+                "Language : " + this.language + "\n"+
+                "Plataform : " + this.plataform + "\n"+
+                "Is MCU? : " + this.isMCU + "\n"+
+                "Main CharacterName : " + this.mainCharacterName + "\n"+
+                "Producer : " + this.producer + "\n"+
+                "Distributor : " + this.distributor + "\n"+
                 "Genero : " + this.gener;
+
 }
 }
