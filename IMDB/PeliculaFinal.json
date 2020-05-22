@@ -1,0 +1,7 @@
+[{"title":"dfef","releaseYear":"ef","nacionality":"efe","gener":"","actors":[
+    {"name":"Cameron Diaz","age":33,"gener":"F","weight":60,"height":170,"hairColor":"Red","eyeColor":"Brown","race":"White","isRetired":false,"nationality":"Italian","oscarsNumber":1,"profession":"Actress"},
+    {"name":"James Franco","age":43,"gener":"M","weight":78,"height":180,"hairColor":"Black","eyeColor":"Blue","race":"Black","isRetired":true,"nationality":"American","oscarsNumber":0,"profession":"Musician"}],
+    "director":
+    {"name":"Harry Lozano","age":67,"gener":"M","weight":75,"height":177,"hairColor":"Blond","eyeColor":"Green","race":"White","isRetired":false,"nationality":"Spanish","oscarsNumber":0,"profession":"Director"},
+    "writer":{"name":"Miguelo","age":54,"gener":"M","weight":79,"height":187,"hairColor":"Brown","eyeColor":"Black","race":"White","isRetired":false,"nationality":"Mexican","oscarsNumber":0,"profession":"Writer"},
+    "language":"English","plataform":"Netflix","isMCU":false,"mainCharacterName":"Cameron Diaz","producer":"Columbian","distributor":"Netflix"}]

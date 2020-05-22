@@ -7,12 +7,13 @@ export class IMBD{
         this.peliculas = peliculas;
     }
 
-    converterToJSON(name:string){
+    escribirEnFicheroJSON(name:string){
         let json = JSON.stringify(this.peliculas)
-        fs.writeFile(name,json);
+        fs.writeFileSync(name,json);
     }
-    readJsontoObject(){
-        let jsonLeido = require('/Users/Documents/workspace/test.json');
+    obtenerInstanciaIMDB(nameFichero: string):IMBD{
+        let instancia = fs.readFileSync(nameFichero, "utf8");
+        const final:IMBD = new IMBD(JSON.parse(instancia));
+        return final;
     }
-    
 }

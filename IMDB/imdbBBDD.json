@@ -1,14 +1,1 @@
-[
-    {
-        "title": "The life of PI",
-        "releaseYear": 2015,
-        "nacionality": "Indian",
-        "gener": "Aventure"
-    },
-    {
-        "title": "Coherence",
-        "releaseYear": 2010,
-        "nacionality": "American",
-        "gener": "Suspense"
-    }
-]
+[{"title":"The life of PI","releaseYear":2015,"nacionality":"Indian","gener":"Aventure"},{"title":"Coherence","releaseYear":2010,"nacionality":"American","gener":"Suspense"}]
